@@ -1,0 +1,165 @@
+copy
+
+COPY — Figueira de Mello Advocacia
+Versão 1.0 — Maio 2026
+
+═══════════════════════════════════════
+1. NAVBAR
+═══════════════════════════════════════
+
+Logo: figueira de mello advocacia
+Menu: Início | Sobre | Áreas | Como Funciona | Contato
+
+═══════════════════════════════════════
+2. HERO
+═══════════════════════════════════════
+
+Título principal:
+Excelência Jurídica com Atendimento Humanizado
+
+Subtítulo:
+De Vila Velha para todo o Brasil.
+Resolvemos o que importa.
+
+Botão CTA:
+Fale com a gente →
+
+Nota técnica:
+Fundo com vídeo em loop (hero-video.mp4).
+Enquanto o vídeo não estiver disponível,
+usar fundo sólido #003B40 com overlay escuro.
+
+═══════════════════════════════════════
+3. SOBRE O DR. GABRIEL
+═══════════════════════════════════════
+
+Título da seção:
+Quem está do seu lado
+
+Texto principal:
+O Dr. Gabriel Figueira de Mello é advogado 
+especialista em Direito Imobiliário e 
+Previdenciário, com sede em Vila Velha, ES.
+
+Mais do que resolver processos, ele resolve 
+problemas. Com uma comunicação direta e sem 
+enrolação, o Dr. Gabriel acompanha cada cliente 
+de forma próxima — você sempre sabe o que está 
+acontecendo com o seu caso.
+
+Com atendimento presencial em Vila Velha e 
+online para todo o Brasil, o escritório une 
+tecnologia e humanidade para entregar o que 
+importa: resultado com transparência.
+
+Frase de destaque:
+"Você fala diretamente com quem decide."
+
+Imagem:
+Foto do Dr. Gabriel (arquivo: foto-gabriel.jpg)
+Placeholder até a foto estar disponível.
+
+═══════════════════════════════════════
+4. ÁREAS DE ATUAÇÃO
+═══════════════════════════════════════
+
+Título da seção:
+Como podemos te ajudar
+
+Subtítulo:
+Atuamos em duas áreas com foco total
+e profundidade técnica.
+
+Card 1:
+Ícone: casa/imóvel elegante
+Título: Direito Imobiliário
+
+Card 2:
+Ícone: documento/previdência elegante
+Título: Direito Previdenciário
+
+Botão abaixo dos cards:
+Quero saber mais → (abre WhatsApp)
+
+═══════════════════════════════════════
+5. COMO FUNCIONA O ATENDIMENTO
+═══════════════════════════════════════
+
+Título da seção:
+Simples assim
+
+Subtítulo:
+Da primeira mensagem até a resolução do seu caso,
+estamos com você em cada etapa.
+
+Passo 1:
+Ícone: mensagem/chat
+Título: Manda uma mensagem
+Texto: Entre em contato pelo WhatsApp.
+Sem burocracia, sem formulários complicados.
+
+Passo 2:
+Ícone: calendário/aperto de mão
+Título: Consulta inicial gratuita
+Texto: Conversamos sobre o seu caso.
+Você entende as opções antes de decidir qualquer coisa.
+
+Passo 3:
+Ícone: lupa/análise
+Título: Analisamos seu caso
+Texto: Estudamos cada detalhe da sua situação
+para encontrar o melhor caminho.
+
+Passo 4:
+Ícone: check/aprovação
+Título: Você decide como prosseguir
+Texto: Com todas as informações em mãos,
+a decisão é sempre sua.
+
+═══════════════════════════════════════
+6. CTA FINAL / CONTATO
+═══════════════════════════════════════
+
+Título:
+Tem uma dúvida jurídica?
+
+Subtítulo:
+Fale com a gente agora.
+A primeira orientação é gratuita.
+
+Botão principal:
+Falar pelo WhatsApp →
+Link: https://wa.me/5527996497771
+
+Informações de contato:
+E-mail: contato@fdemelloadv.com.br
+Instagram: @figueirademelloadv
+Endereço: Canal Office Tower — Rua 7 de Junho, 33
+Coqueiral de Itaparica, Vila Velha/ES
+
+═══════════════════════════════════════
+7. RODAPÉ
+═══════════════════════════════════════
+
+Texto legal:
+As informações contidas neste site são de caráter 
+informativo e não substituem consulta jurídica 
+individual.
+
+Direitos:
+© 2026 Figueira de Mello Advocacia —
+Todos os direitos reservados.
+
+Links do rodapé:
+Instagram: @figueirademelloadv
+WhatsApp: (27) 99649-7771
+E-mail: contato@fdemelloadv.com.br
+
+═══════════════════════════════════════
+8. BOTÃO FLUTUANTE WHATSAPP
+═══════════════════════════════════════
+
+Visível em todas as seções durante o scroll.
+Posição: canto inferior direito.
+Link: https://wa.me/5527996497771
+Tooltip ao hover: "Fale com a gente"

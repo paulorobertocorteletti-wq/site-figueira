@@ -1,0 +1,222 @@
+DESIGN SYSTEM — Figueira de Mello Advocacia
+Versão 1.0 — Maio 2026
+
+═══════════════════════════════════════
+1. IDENTIDADE E POSICIONAMENTO
+═══════════════════════════════════════
+
+Escritório de advocacia premium localizado em Vila Velha/ES.
+Posicionamento: sofisticado, humano, direto e moderno.
+Sem juridiquês. Sem frieza corporativa.
+A marca transmite confiança através da proximidade, não da intimidação.
+
+Sensação visual desejada:
+— Elegante mas acessível
+— Orgânico mas profissional
+— Moderno mas atemporal
+
+═══════════════════════════════════════
+2. PALETA DE CORES
+═══════════════════════════════════════
+
+COR PRIMÁRIA — Verde Petróleo
+Hex: #003B40
+RGB: 0, 59, 64
+Uso: navbar, fundos de seção, botões principais, ícones, hero
+
+COR SECUNDÁRIA — Bege Dourado
+Hex: #CAAA8A
+RGB: 202, 170, 138
+Uso: destaques, CTAs secundários, ícones decorativos, hovers
+
+COR TERCIÁRIA — Bege Médio
+Hex: #DAD3C3
+RGB: 218, 211, 195
+Uso: bordas suaves, divisores, backgrounds de cards
+
+COR DE FUNDO — Off-white
+Hex: #F7F3EF
+RGB: 247, 243, 239
+Uso: background geral da página, seções claras
+
+TEXTO PRINCIPAL
+Hex: #003B40 (verde petróleo)
+Uso: títulos e textos sobre fundos claros
+
+TEXTO SECUNDÁRIO
+Hex: #5A5A5A
+Uso: parágrafos, descrições, textos de apoio
+
+TEXTO SOBRE FUNDO ESCURO
+Hex: #F7F3EF (off-white)
+Uso: qualquer texto sobre fundo #003B40
+
+═══════════════════════════════════════
+3. TIPOGRAFIA
+═══════════════════════════════════════
+
+FONTE PRIMÁRIA — Títulos e destaques
+Nome: Archia Regular
+Fallback: DM Serif Display
+Google Fonts: @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap')
+Características: serifada elegante, personalidade forte, sofisticada
+
+FONTE SECUNDÁRIA — Corpo e interface
+Nome: Cabinet Grotesk
+Fallback: DM Sans
+Google Fonts: @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap')
+Características: sans-serif clean, legível, moderna
+
+HIERARQUIA TIPOGRÁFICA:
+H1 — Archia/DM Serif Display — 56px desktop / 36px mobile — peso 400
+H2 — Archia/DM Serif Display — 40px desktop / 28px mobile — peso 400
+H3 — Cabinet Grotesk/DM Sans — 24px — peso 500
+Corpo — Cabinet Grotesk/DM Sans — 16px — peso 400 — line-height 1.7
+Pequeno — Cabinet Grotesk/DM Sans — 14px — peso 400
+Label — Cabinet Grotesk/DM Sans — 12px — peso 400 — letter-spacing 0.15em — UPPERCASE
+
+═══════════════════════════════════════
+4. LOGO E ÍCONE
+═══════════════════════════════════════
+
+Ícone: folha estilizada com nervura central e duas folhas laterais
+Formato: SVG inline — fundo quadrado com bordas arredondadas (rx=16)
+Fundo do ícone: #CAAA8A (bege dourado) quando sobre fundo escuro
+Fundo do ícone: #003B40 (verde petróleo) quando sobre fundo claro
+Cor da folha: sempre contraste com o fundo do ícone
+
+Texto da marca:
+Linha 1: "figueira de mello" — Archia/DM Serif Display — peso 400
+Linha 2: "a d v o c a c i a" — Cabinet Grotesk/DM Sans — peso 300 — letter-spacing 0.25em
+
+No navbar: ícone pequeno (32x32px) + texto ao lado, tudo em branco sobre fundo #003B40
+
+═══════════════════════════════════════
+5. COMPONENTES
+═══════════════════════════════════════
+
+NAVBAR
+— Fundo: #003B40
+— Altura: 72px desktop / 60px mobile
+— Logo à esquerda, menu à direita
+— Links: #F7F3EF, peso 400, letter-spacing 0.05em
+— Posição: fixed top, z-index alto
+— Sombra sutil ao fazer scroll: box-shadow 0 2px 20px rgba(0,0,0,0.15)
+
+BOTÃO PRIMÁRIO (CTA principal)
+— Fundo: #CAAA8A
+— Texto: #003B40
+— Padding: 16px 32px
+— Border-radius: 4px
+— Hover: fundo #003B40, texto #CAAA8A, transição 0.3s
+— Fonte: Cabinet Grotesk/DM Sans — peso 500 — letter-spacing 0.05em
+
+BOTÃO SECUNDÁRIO
+— Fundo: transparente
+— Borda: 1px solid #CAAA8A
+— Texto: #CAAA8A
+— Hover: fundo #CAAA8A, texto #003B40
+
+BOTÃO WHATSAPP FLUTUANTE
+— Posição: fixed bottom-right, 24px de margem
+— Fundo: #25D366 (verde WhatsApp)
+— Ícone: SVG do WhatsApp em branco
+— Tamanho: 56px x 56px
+— Border-radius: 50%
+— Sombra: 0 4px 16px rgba(0,0,0,0.25)
+— Sempre visível em todo o scroll
+
+CARDS DE ÁREA
+— Fundo: #F7F3EF
+— Borda: 1px solid #DAD3C3
+— Border-radius: 8px
+— Padding: 40px 32px
+— Ícone: 48px, cor #CAAA8A
+— Título: Archia/DM Serif Display, #003B40
+— Hover: borda #CAAA8A, sombra suave
+
+SEÇÃO ESCURA
+— Fundo: #003B40
+— Texto principal: #F7F3EF
+— Texto secundário: #DAD3C3
+— Destaques: #CAAA8A
+
+SEÇÃO CLARA
+— Fundo: #F7F3EF
+— Texto principal: #003B40
+— Destaques: #CAAA8A
+
+DIVISOR
+— Linha fina: 1px solid #DAD3C3
+— Ou espaçamento generoso entre seções (80px desktop / 48px mobile)
+
+═══════════════════════════════════════
+6. PADRÃO DECORATIVO
+═══════════════════════════════════════
+
+Elemento: ícone da folha repetido em grid
+Opacidade: 5% a 8% (muito sutil, apenas textura)
+Cor: #CAAA8A sobre fundo escuro / #003B40 sobre fundo claro
+Uso: como background decorativo em seções específicas
+Tamanho do ícone no padrão: 40px com espaçamento de 60px entre eles
+
+═══════════════════════════════════════
+7. ANIMAÇÕES
+═══════════════════════════════════════
+
+Fade in ao entrar na viewport:
+— opacity: 0 → 1
+— transform: translateY(20px) → translateY(0)
+— duration: 0.6s
+— easing: ease-out
+— usar Intersection Observer API
+
+Hover em links e botões:
+— transition: all 0.3s ease
+
+Navbar ao fazer scroll:
+— Adicionar classe com sombra suave após 80px de scroll
+
+═══════════════════════════════════════
+8. ESPAÇAMENTO E GRID
+═══════════════════════════════════════
+
+Container máximo: 1200px centralizado
+Padding lateral desktop: 80px
+Padding lateral mobile: 24px
+Espaçamento entre seções desktop: 100px
+Espaçamento entre seções mobile: 60px
+Gap entre cards: 24px
+
+═══════════════════════════════════════
+9. ESTILO GERAL
+═══════════════════════════════════════
+
+— Mobile first, totalmente responsivo
+— Sem sombras pesadas — apenas sombras sutis e funcionais
+— Bordas finas e elegantes
+— Muito espaço em branco — não sobrecarregar
+— Fotografias com overlay sutil de #003B40 quando usadas como fundo
+— Arquivo único HTML com CSS e JS internos
+— Sem frameworks externos
+— Referência de sofisticação: nwadv.com.br
+
+═══════════════════════════════════════
+10. ARQUIVOS DE IMAGEM
+═══════════════════════════════════════
+
+LOGO (ícone da folha):
+Arquivo: logo.jpg
+Uso no navbar: altura 40px, ao lado do texto "figueira de mello advocacia"
+Uso no rodapé: altura 32px
+
+FOTO DO DR. GABRIEL:
+Arquivo: foto_gabriel.jpg
+Uso: seção Sobre, ao lado do texto
+Estilo: border-radius 8px, object-fit cover
+
+ÍCONE WHATSAPP FLUTUANTE:
+Arquivo: vecteezy_whatsapp-logo-icon.jpg
+Uso: botão flutuante canto inferior direito
+Tamanho: 56x56px, border-radius 50%
+Background: #25D366
